@@ -1,13 +1,7 @@
 {
-	"name": "sourcererror1234",
+	"name": "venkayenuganti1234",
 	"properties": {
 		"activities": [
-			{
-				"name": "ForEach1_copy2",
-				"type": "ForEach",
-				"dependsOn": [],
-				"userProperties": []
-			},
 			{
 				"name": "ForEach2",
 				"type": "ForEach",
