@@ -3,12 +3,6 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach2",
-				"type": "ForEach",
-				"dependsOn": [],
-				"userProperties": []
-			},
-			{
 				"name": "Lookup1",
 				"type": "Lookup",
 				"dependsOn": [],
