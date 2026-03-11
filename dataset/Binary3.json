@@ -1,0 +1,19 @@
+{
+	"name": "Binary3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales_practice_dataset.csv",
+				"fileSystem": "venuganti123456"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
