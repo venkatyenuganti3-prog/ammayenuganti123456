@@ -1,5 +1,5 @@
 {
-	"name": "venkasandati12345",
+	"name": "venkasandati1234544",
 	"properties": {
 		"activities": [
 			{
@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -45,7 +46,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('YENUGANTIS').output.itemNameactivity('YENUGANTIS').output.childItems",
+						"value": "@activity('YENUGANTIS').output.itemNameactivity('YENUGANTIS').output.existsactivity('YENUGANTIS').output.itemNameactivity('YENUGANTIS').output.childItems",
 						"type": "Expression"
 					},
 					"activities": [
@@ -86,7 +87,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "DelimitedText19",
+									"referenceName": "DelimitedText21",
 									"type": "DatasetReference"
 								}
 							],
