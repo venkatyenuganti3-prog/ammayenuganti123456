@@ -2,7 +2,7 @@
 	"name": "DelimitedText5",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "AzureDataLakeStorage2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "sales_practice_dataset.csv",
-				"fileSystem": "students-data"
+				"fileSystem": "simha12326"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -20,11 +19,15 @@
 		},
 		"schema": [
 			{
-				"name": "OrderID",
+				"name": "FirstName",
 				"type": "String"
 			},
 			{
-				"name": "CustomerName",
+				"name": "LastName",
+				"type": "String"
+			},
+			{
+				"name": "AddressLine",
 				"type": "String"
 			},
 			{
@@ -32,26 +35,13 @@
 				"type": "String"
 			},
 			{
-				"name": "Product",
+				"name": "State",
 				"type": "String"
 			},
 			{
-				"name": "Quantity",
-				"type": "String"
-			},
-			{
-				"name": "Price_per_Unit",
-				"type": "String"
-			},
-			{
-				"name": "Total_Amount",
-				"type": "String"
-			},
-			{
-				"name": "Order_Date",
+				"name": "ZipCode",
 				"type": "String"
 			}
 		]
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }

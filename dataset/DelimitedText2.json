@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "students_practice_dataset.json",
-				"fileSystem": "venuganti123456"
+				"fileSystem": "simha12326"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -20,42 +19,29 @@
 		},
 		"schema": [
 			{
-				"name": "{\"StudentID\":\"1\"",
+				"name": "FirstName",
 				"type": "String"
 			},
 			{
-				"name": "\"Name\":\"Ravi\"",
+				"name": "LastName",
 				"type": "String"
 			},
 			{
-				"name": "\"Age\":\"18\"",
+				"name": "AddressLine",
 				"type": "String"
 			},
 			{
-				"name": "\"Gender\":\"M\"",
+				"name": "City",
 				"type": "String"
 			},
 			{
-				"name": "\"Math\":\"85\"",
+				"name": "State",
 				"type": "String"
 			},
 			{
-				"name": "\"Science\":\"78\"",
-				"type": "String"
-			},
-			{
-				"name": "\"English\":\"88\"",
-				"type": "String"
-			},
-			{
-				"name": "\"Total\":\"251\"",
-				"type": "String"
-			},
-			{
-				"name": "\"Grade\":\"A\"}",
+				"name": "ZipCode",
 				"type": "String"
 			}
 		]
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }

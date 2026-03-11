@@ -1,8 +1,8 @@
 {
-	"name": "DelimitedText7",
+	"name": "DelimitedText8",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage3",
+			"referenceName": "AzureDataLakeStorage4",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "addresses.csv",
-				"fileSystem": "kambampati12345"
+				"fileName": "sales_practice_dataset.csv",
+				"fileSystem": "students-data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -20,27 +20,35 @@
 		},
 		"schema": [
 			{
-				"name": "John",
+				"name": "OrderID",
 				"type": "String"
 			},
 			{
-				"name": "Doe",
+				"name": "CustomerName",
 				"type": "String"
 			},
 			{
-				"name": "120 jefferson st.",
+				"name": "City",
 				"type": "String"
 			},
 			{
-				"name": "Riverside",
+				"name": "Product",
 				"type": "String"
 			},
 			{
-				"name": " NJ",
+				"name": "Quantity",
 				"type": "String"
 			},
 			{
-				"name": " 08075",
+				"name": "Price_per_Unit",
+				"type": "String"
+			},
+			{
+				"name": "Total_Amount",
+				"type": "String"
+			},
+			{
+				"name": "Order_Date",
 				"type": "String"
 			}
 		]

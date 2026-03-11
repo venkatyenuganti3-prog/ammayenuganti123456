@@ -10,52 +10,13 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "students_practice_dataset.csv",
-				"fileSystem": "venuganti123456"
+				"fileSystem": "targetdatabase"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "StudentID",
-				"type": "String"
-			},
-			{
-				"name": "Name",
-				"type": "String"
-			},
-			{
-				"name": "Age",
-				"type": "String"
-			},
-			{
-				"name": "Gender",
-				"type": "String"
-			},
-			{
-				"name": "Math",
-				"type": "String"
-			},
-			{
-				"name": "Science",
-				"type": "String"
-			},
-			{
-				"name": "English",
-				"type": "String"
-			},
-			{
-				"name": "Total",
-				"type": "String"
-			},
-			{
-				"name": "Grade",
-				"type": "String"
-			}
-		]
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+		"schema": []
+	}
 }

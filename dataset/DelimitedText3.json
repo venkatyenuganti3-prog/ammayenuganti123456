@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "students_practice_dataset.json",
-				"fileSystem": "venuganti123456"
+				"fileName": "sales_practice_dataset.csv",
+				"fileSystem": "kambampati12345"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -20,42 +20,37 @@
 		},
 		"schema": [
 			{
-				"name": "{\"StudentID\":\"1\"",
+				"name": "OrderID",
 				"type": "String"
 			},
 			{
-				"name": "\"Name\":\"Ravi\"",
+				"name": "CustomerName",
 				"type": "String"
 			},
 			{
-				"name": "\"Age\":\"18\"",
+				"name": "City",
 				"type": "String"
 			},
 			{
-				"name": "\"Gender\":\"M\"",
+				"name": "Product",
 				"type": "String"
 			},
 			{
-				"name": "\"Math\":\"85\"",
+				"name": "Quantity",
 				"type": "String"
 			},
 			{
-				"name": "\"Science\":\"78\"",
+				"name": "Price_per_Unit",
 				"type": "String"
 			},
 			{
-				"name": "\"English\":\"88\"",
+				"name": "Total_Amount",
 				"type": "String"
 			},
 			{
-				"name": "\"Total\":\"251\"",
-				"type": "String"
-			},
-			{
-				"name": "\"Grade\":\"A\"}",
+				"name": "Order_Date",
 				"type": "String"
 			}
 		]
-	},
-	"type": "Microsoft.DataFactory/factories/datasets"
+	}
 }
